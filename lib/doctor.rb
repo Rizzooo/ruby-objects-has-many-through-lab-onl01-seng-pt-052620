@@ -20,6 +20,5 @@ class Doctor
     Appointment.select do |appt|
       appt.doctor == self
     end
-    appointments
   end
 end
